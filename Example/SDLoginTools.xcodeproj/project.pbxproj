@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07A8432427C84FC358DB9D46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		3BB3A9510218C389BEFC7982 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		07A8432427C84FC358DB9D46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3BB3A9510218C389BEFC7982 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SDLoginTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLoginTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C5C8684FA47D54AF9A6281C /* Pods_SDLoginTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDLoginTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA8872174ACF46D4647A6CA /* Pods-SDLoginTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDLoginTools_Example.release.xcconfig"; path = "Target Support Files/Pods-SDLoginTools_Example/Pods-SDLoginTools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		71E1185C95C2B3DA90B0B1BA /* SDLoginTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SDLoginTools.podspec; path = ../SDLoginTools.podspec; sourceTree = "<group>"; };
+		71E1185C95C2B3DA90B0B1BA /* SDLoginTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDLoginTools.podspec; path = ../SDLoginTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8ACF78D691C1840B1D5D509A /* Pods_SDLoginTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDLoginTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE96761FAF7CE04327BA62EF /* Pods-SDLoginTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDLoginTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-SDLoginTools_Example/Pods-SDLoginTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C78127CD6DC3B46B3E6DD1A4 /* Pods-SDLoginTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDLoginTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SDLoginTools_Tests/Pods-SDLoginTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				C78127CD6DC3B46B3E6DD1A4 /* Pods-SDLoginTools_Tests.debug.xcconfig */,
 				CCEF5DCBA0695C5D37AF90DA /* Pods-SDLoginTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

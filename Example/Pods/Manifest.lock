@@ -1,0 +1,16 @@
+PODS:
+  - SDLoginTools (0.1.0)
+
+DEPENDENCIES:
+  - SDLoginTools (from `../`)
+
+EXTERNAL SOURCES:
+  SDLoginTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDLoginTools: c8f6f8efc4bad1a20a5aadd1cb03dbc1da52fc3a
+
+PODFILE CHECKSUM: 96146353507d05231036457fef12299194ef51f7
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module SDLoginTools {
+  umbrella header "SDLoginTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_SDLoginTools_Example {
+  umbrella header "Pods-SDLoginTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
