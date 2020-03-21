@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SDLoginTools_Example' do
+  pod 'SDLoginTools', :path => '../'
+
+  target 'SDLoginTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
