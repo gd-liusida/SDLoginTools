@@ -30,6 +30,7 @@
 		5A7FCE5F2441A9D500E6EB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A7FCE662441AD4300E6EB30 /* SDLoginTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLoginTools.swift; sourceTree = "<group>"; };
 		5A7FCE682441BC4500E6EB30 /* SDResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDResult.swift; sourceTree = "<group>"; };
+		5A7FCE6B2441C26600E6EB30 /* SDLoginTools-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDLoginTools-Bridging-Header.h"; sourceTree = "<group>"; };
 		5D8CE4D6C695C605C344BDA6 /* Pods-SDLoginTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDLoginTools.debug.xcconfig"; path = "Target Support Files/Pods-SDLoginTools/Pods-SDLoginTools.debug.xcconfig"; sourceTree = "<group>"; };
 		8CFD75301C9ED655BAC82EFC /* Pods-SDLoginTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDLoginTools.release.xcconfig"; path = "Target Support Files/Pods-SDLoginTools/Pods-SDLoginTools.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +85,7 @@
 				5A7FCE5A2441A9D500E6EB30 /* Assets.xcassets */,
 				5A7FCE5C2441A9D500E6EB30 /* LaunchScreen.storyboard */,
 				5A7FCE5F2441A9D500E6EB30 /* Info.plist */,
+				5A7FCE6B2441C26600E6EB30 /* SDLoginTools-Bridging-Header.h */,
 			);
 			path = SDLoginTools;
 			sourceTree = "<group>";
@@ -140,6 +142,7 @@
 				TargetAttributes = {
 					5A7FCE4D2441A9D500E6EB30 = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -370,6 +373,7 @@
 			baseConfigurationReference = 5D8CE4D6C695C605C344BDA6 /* Pods-SDLoginTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SPP78995LT;
 				INFOPLIST_FILE = SDLoginTools/Info.plist;
@@ -379,6 +383,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yingda.SDLoginTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SDLoginTools/SDLoginTools-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -389,6 +395,7 @@
 			baseConfigurationReference = 8CFD75301C9ED655BAC82EFC /* Pods-SDLoginTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SPP78995LT;
 				INFOPLIST_FILE = SDLoginTools/Info.plist;
@@ -398,6 +405,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yingda.SDLoginTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SDLoginTools/SDLoginTools-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

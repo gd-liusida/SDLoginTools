@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import WXApi
 
 class SDLoginWechat: NSObject {
     /// It use to store openid, access_token, refresh_token
@@ -19,10 +18,10 @@ class SDLoginWechat: NSObject {
     /// A closure used to receive and process request
     var completionHandler: Handle!
     
-    public static var appid: String! {
-        didSet {
-            
-        }
-    }
+//    public static var wechat: (appId: String, link: String) {
+//        didSet {
+//            WXApi.registerApp(wechat.appId, universalLink: wechat.link)
+//        }
+//    }
 }
 
