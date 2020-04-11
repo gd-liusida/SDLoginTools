@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		459B77FB0B834CFD0DD94A84 /* Pods_SDLoginTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02849A1B8681711ACB859A4D /* Pods_SDLoginTools.framework */; };
 		5A7FCE522441A9D500E6EB30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FCE512441A9D500E6EB30 /* AppDelegate.swift */; };
 		5A7FCE542441A9D500E6EB30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FCE532441A9D500E6EB30 /* SceneDelegate.swift */; };
 		5A7FCE562441A9D500E6EB30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FCE552441A9D500E6EB30 /* ViewController.swift */; };
 		5A7FCE592441A9D500E6EB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7FCE572441A9D500E6EB30 /* Main.storyboard */; };
 		5A7FCE5B2441A9D500E6EB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7FCE5A2441A9D500E6EB30 /* Assets.xcassets */; };
 		5A7FCE5E2441A9D500E6EB30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7FCE5C2441A9D500E6EB30 /* LaunchScreen.storyboard */; };
+		5A7FCE672441AD4300E6EB30 /* SDLoginTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FCE662441AD4300E6EB30 /* SDLoginTools.swift */; };
+		5A7FCE692441BC4500E6EB30 /* SDResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7FCE682441BC4500E6EB30 /* SDResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02849A1B8681711ACB859A4D /* Pods_SDLoginTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDLoginTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7FCE4E2441A9D500E6EB30 /* SDLoginTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDLoginTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7FCE512441A9D500E6EB30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A7FCE532441A9D500E6EB30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		5A7FCE5A2441A9D500E6EB30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A7FCE5D2441A9D500E6EB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A7FCE5F2441A9D500E6EB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7FCE662441AD4300E6EB30 /* SDLoginTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDLoginTools.swift; sourceTree = "<group>"; };
+		5A7FCE682441BC4500E6EB30 /* SDResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDResult.swift; sourceTree = "<group>"; };
+		5D8CE4D6C695C605C344BDA6 /* Pods-SDLoginTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDLoginTools.debug.xcconfig"; path = "Target Support Files/Pods-SDLoginTools/Pods-SDLoginTools.debug.xcconfig"; sourceTree = "<group>"; };
+		8CFD75301C9ED655BAC82EFC /* Pods-SDLoginTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDLoginTools.release.xcconfig"; path = "Target Support Files/Pods-SDLoginTools/Pods-SDLoginTools.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				459B77FB0B834CFD0DD94A84 /* Pods_SDLoginTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24ED12BBC662A32DF952336B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D8CE4D6C695C605C344BDA6 /* Pods-SDLoginTools.debug.xcconfig */,
+				8CFD75301C9ED655BAC82EFC /* Pods-SDLoginTools.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5A7FCE452441A9D500E6EB30 = {
 			isa = PBXGroup;
 			children = (
 				5A7FCE502441A9D500E6EB30 /* SDLoginTools */,
 				5A7FCE4F2441A9D500E6EB30 /* Products */,
+				24ED12BBC662A32DF952336B /* Pods */,
+				6321470DFD38D0C047C4AFC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +76,7 @@
 		5A7FCE502441A9D500E6EB30 /* SDLoginTools */ = {
 			isa = PBXGroup;
 			children = (
+				5A7FCE652441AC5F00E6EB30 /* SDLoginTools */,
 				5A7FCE512441A9D500E6EB30 /* AppDelegate.swift */,
 				5A7FCE532441A9D500E6EB30 /* SceneDelegate.swift */,
 				5A7FCE552441A9D500E6EB30 /* ViewController.swift */,
@@ -67,6 +88,23 @@
 			path = SDLoginTools;
 			sourceTree = "<group>";
 		};
+		5A7FCE652441AC5F00E6EB30 /* SDLoginTools */ = {
+			isa = PBXGroup;
+			children = (
+				5A7FCE662441AD4300E6EB30 /* SDLoginTools.swift */,
+				5A7FCE682441BC4500E6EB30 /* SDResult.swift */,
+			);
+			path = SDLoginTools;
+			sourceTree = "<group>";
+		};
+		6321470DFD38D0C047C4AFC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02849A1B8681711ACB859A4D /* Pods_SDLoginTools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A7FCE622441A9D500E6EB30 /* Build configuration list for PBXNativeTarget "SDLoginTools" */;
 			buildPhases = (
+				04964E7BD0056C856A9B1C0A /* [CP] Check Pods Manifest.lock */,
 				5A7FCE4A2441A9D500E6EB30 /* Sources */,
 				5A7FCE4B2441A9D500E6EB30 /* Frameworks */,
 				5A7FCE4C2441A9D500E6EB30 /* Resources */,
+				5541277210EC5F6C6BDCED3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -93,6 +133,7 @@
 		5A7FCE462441A9D500E6EB30 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SD;
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Sida Liu";
@@ -133,13 +174,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04964E7BD0056C856A9B1C0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDLoginTools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5541277210EC5F6C6BDCED3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDLoginTools/Pods-SDLoginTools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SDLoginTools/Pods-SDLoginTools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SDLoginTools/Pods-SDLoginTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A7FCE4A2441A9D500E6EB30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5A7FCE562441A9D500E6EB30 /* ViewController.swift in Sources */,
+				5A7FCE692441BC4500E6EB30 /* SDResult.swift in Sources */,
 				5A7FCE522441A9D500E6EB30 /* AppDelegate.swift in Sources */,
+				5A7FCE672441AD4300E6EB30 /* SDLoginTools.swift in Sources */,
 				5A7FCE542441A9D500E6EB30 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +367,7 @@
 		};
 		5A7FCE632441A9D500E6EB30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8CE4D6C695C605C344BDA6 /* Pods-SDLoginTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +386,7 @@
 		};
 		5A7FCE642441A9D500E6EB30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFD75301C9ED655BAC82EFC /* Pods-SDLoginTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
